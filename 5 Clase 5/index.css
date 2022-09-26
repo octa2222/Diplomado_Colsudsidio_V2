@@ -1,0 +1,56 @@
+
+/*css parara ejercicio indx*/
+
+body{
+color: #00F; 
+background-color: #CFC; 
+font-family: Georgia, Cambria, serif; 
+font-size: 16px;
+}
+h1 {
+
+color: #F00; 
+font-family: Verdana, Calibri, sans-serif; 
+font-size: 32px;
+    
+}
+h2{
+
+color: #A00; 
+font-family: Verdana, 
+Calibri, sans-serif; 
+font-size: 24px;
+
+}
+
+li.a{
+color: #00F;
+font-size: 20px
+}
+
+li.b{
+
+color: #060;
+font-size: 20px
+}
+
+p{
+
+color: #00F; 
+background-color: #CFC; 
+font-size: 20px
+
+}
+em{
+
+color: #FFF;
+background-color: #000;
+font-style: italic;
+}
+
+rem{
+
+ color: #00F;
+ font-size: 20px   
+
+}

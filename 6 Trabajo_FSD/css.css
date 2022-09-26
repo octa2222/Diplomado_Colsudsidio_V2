@@ -1,0 +1,302 @@
+
+/* clase de HTML css*/
+*{
+margin: 3%;
+}
+h1{
+text-align: center;
+font-family: 'Tangerine', serif;
+font-size: 78px;
+text-shadow: 8px 8px 8px rgb(119, 118, 118);
+color: crimson;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+background: #e2dedb;
+color: #b3aca7;
+font-family: sans-serif; 
+background-color: rgb(255, 255, 251); 
+font-size: 14px;
+}
+
+header{
+height:50px;
+line-height:50px;
+background-color:808080;
+color:darkred;
+text-align:center;
+left:0;
+width:100%;
+} 
+
+/* main menu */
+
+#navlist { 
+padding: 3px 0px;
+border-bottom: 3px solid #778;
+font: bold 20px Verdana, sans-serif;
+padding-bottom: 5px;
+}
+
+#navlist li { 
+list-style: none; 
+display: inline; 
+margin-left:10px;
+}
+
+#navlist li a { 
+padding: 3px 1em;
+border: 1px solid #778; 
+border-bottom: none;
+background-color: #DDE; 
+text-decoration: none;
+border-radius: 10px;
+}
+
+#navlist li a:link { 
+color: #448; 
+}
+
+#navlist li a:hover {
+color: #000; 
+background: #AAE; 
+border-color: #227;
+}
+
+/* cuadro con imagen y texto*/
+
+img.izquierda {
+float: left;
+margin-left: 20px;
+width: 35% ;
+padding-bottom: 15px;
+}
+
+img.derecha {
+float: right;
+margin-right: 20px;
+width: 30%;
+
+}
+
+h3 {
+font-size: 24px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-left: 5%;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: left;
+  padding-right: 15px;
+  color: #278502;
+  text-shadow: 8px 8px 8px rgb(7, 7, 7);
+  }
+
+img{
+margin-bottom: 40px;
+padding-right: 25px;
+}
+
+/*Parrafos*/
+
+p{
+font-size: 22px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: justify;
+padding-right: 15px;
+
+}  
+
+ /* Banner */
+.ban {
+position: relative;
+padding-top: 30px;
+padding-bottom: 0px ;
+margin: auto;
+display:block;
+width: 100%;
+}
+
+.ban2 {
+padding-top: 30px;
+padding-bottom: 0px ;
+margin: auto;
+width: 50%;
+}
+
+.ban3{
+float:initial;
+width: 100%;
+display:flexbox;
+
+}
+
+/* Formulario de contacto **/
+
+.contact_form{  
+width: 90%; 
+height: auto;
+margin: 2px ;
+border-radius: 10px;  
+padding-top: 1px;
+padding-bottom: 2px;  
+background-color: #fbfbfb; 
+padding-left: 30px; 
+}
+
+input{
+background-color: #fbfbfb; 
+width: 90%; 
+height: 40px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #044b16; 
+padding-left: 10px;
+}
+
+textarea{
+background-color: #fbfbfb; 
+width: 90%; 
+height: 150px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #033b06; 
+padding-left: 10px;
+}
+
+label{
+display:flexbox; 
+float:center;
+line-height: 0;
+
+}
+
+.enviar{
+font-size: 20px;
+color: #020202;
+}
+
+button{
+text-transform: uppercase;
+background-color: #1f7a13; 
+border-color: #54f135; 
+border-style: solid; 
+border-radius: 10px;  
+cursor: pointer;
+}
+
+.enviar{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+text-align: center;
+color: #DDE;
+}
+
+button p{
+color: #fff;
+}
+
+button:hover{
+background-color: chartreuse;
+zoom: 20px;
+cursor: progress;
+cursor:pointer
+}
+
+button:hover{
+background-color: chartreuse;
+zoom: 20px;
+cursor: progress;
+cursor:pointer
+}
+
+span{
+color: #ab4493; 
+}
+
+span{
+font-size: 20px;
+font-family: comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;
+color: rgb(45, 83, 8);
+
+}
+
+/* tabla con informacion*/
+
+table{
+width: 90%;
+border:"2";
+border:solid 1px #1d1d1d; 
+border-collapse: collapse; 
+font-size: 16px; 
+font-family:"Trebuchet MS", "Helvetica";
+margin: 0 auto;
+}
+
+table td{
+border:solid 1px #1d1d1d;
+}
+
+.lista{
+list-style: none;
+padding-top: 100%;
+padding-bottom: 100%;
+}
+
+.lista1{
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  }
+
+table thead tr { 
+background-color: #2a2a2a; 
+color:#fff; 
+}
+
+
+table thead th { 
+border: solid 1px #777;
+}
+
+table tbody tr.claro{ 
+background-color: #F7F7F7;
+}
+
+table tbody tr.oscuro{ 
+background-color: #DFE8FF;
+}
+
+table tbody td:first-child{ 
+background-color: #2a2a2a; 
+color:#fff; 
+width:1.5em; 
+text-align:center; 
+border-color:#777;
+float: left;
+}
+
+.imgtabla{
+float: left;
+text-align: justify;
+width: 40%;
+}
+
+/* pie de pagina*/
+footer {
+padding-left: 20px;
+left:0px;
+bottom:0px;
+height:50px;
+width:100%;
+background:#999;
+text-align:center;
+}
+    
+
+

@@ -1,0 +1,35 @@
+/* css clase 6 */
+
+body {
+    width: 60%;
+    margin: 0 20%; 
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .data, .princ {
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+  .princ {
+    width: 60%;
+  }
+
+  .data {
+   width: 23%;
+  }
+  
+  .contenido {
+    list-style-type: none;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  .contenido li {
+    float: left;
+    width: 33%;
+    border: 5px;   
+  }
