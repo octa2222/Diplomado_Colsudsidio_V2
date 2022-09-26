@@ -4,10 +4,6 @@
     padding: 10px;
     text-align: left;
 }
-.bigicon {
-    font-size: 35px;
-    color: #36A0FF;
-}
 .img-cs{
     width: 60%;
 }
@@ -26,7 +22,6 @@
     padding: 20px;
     margin-bottom: 30px;
     float: left;
-    border-radius: 10px;
 }
 .card-box .card-thumbnail {
     max-height: 200px;
