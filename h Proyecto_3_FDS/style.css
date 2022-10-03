@@ -1,0 +1,100 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+    text-align: left;
+}
+.img-cs{
+    width: 60%;
+}
+.img-cs1{
+    display: float;
+    width: 20%;
+    justify-content: center;
+}
+.img-tj{
+    width: 20%;
+}
+.p-cs{
+    text-align: justify;
+}
+/* Decoracion card*/
+.card-box {
+    padding: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+.card-box .card-thumbnail {
+    max-height: 200px;
+    overflow: hidden;
+    transition: 1s;
+}
+.card-box .card-thumbnail:hover {
+    transform: scale(1.2);
+}
+.card-box h3 a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.caja{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#boton{
+    height: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #046128;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    
+}
+#boton button:hover {
+    background-color: #06069e;
+}
+#boton1{
+    font-size: 2 em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #046128;
+    border: none;
+    border-radius: 0;
+    
+}
+#boton1 button:hover {
+    background-color: #06069e;
+}
+#tabla {
+    width: 100%;
+}
+button {
+    width: 100%;
+    font-size: 150%;
+}
+.ac {
+    color: red;
+}
+
+#iniciar-calculadora{
+    padding-bottom: 20px;;
+    padding-top: 20px;
+    background: rgb(248, 251, 250);
+    color: rgb(13, 6, 60);
+    font-weight: bold;
+    font-family: system-ui, sans-serif;
+    border-radius: 100px;
+    border:none
+}
+  #iniciar-calculadora:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    text-decoration-color: chartreuse;
+
+}
+ 
