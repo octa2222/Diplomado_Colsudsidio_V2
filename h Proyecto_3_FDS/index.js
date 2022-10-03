@@ -1,5 +1,4 @@
 
-document.getElementById("bloque").style.display = "none";
 let mostrar = 1;
 function Mostrar_Ocultar() {
     document.getElementById("bloque").style.display = "none";
