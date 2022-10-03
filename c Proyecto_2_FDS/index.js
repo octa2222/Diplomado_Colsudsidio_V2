@@ -1,6 +1,5 @@
+///Ocultar secciones /////
 let mostrar = 1;
-
-
 function Mostrar_Ocultar() {
     document.getElementById("bloque").style.display = "none";
     if (mostrar == 1) {
@@ -10,12 +9,9 @@ function Mostrar_Ocultar() {
         document.getElementById("bloque").style.display = "block";
         mostrar = 1;
     }
-
 }
-
-
+////Ocultar div---/////
 let node = 1;
-
 function divLog() {
     if (node == 1) {
         document.getElementById("caja").style.display = "block";
@@ -24,19 +20,17 @@ function divLog() {
         document.getElementById("caja").style.display = "none";
         node = 1;
     }
-
 }
 
-
+/// Agregar Texto////
 function addText() {
-
     let container = document.querySelector("myDIV");
     document.getElementById("myHeader").innerHTML = "Acerca de Nosotros";
     myDIV.innerHTML = "h2"
     myDIV.innerHTML = " Mision <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt illo fficiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia   aperiam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt corrupti sed inventore illo officiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia aperiam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt corrupti sed inventore illo officiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia aperiam.<br> <br> Vision <br> lorem ipsum dolor sit amet, consectetur adipisicing  elit, sed diam nonumy eirmod tempor incididunt ut labore et dolore magna aliquyam erat voluptas eum incididunt utilInspect  iusto, incidunt in culpa qui officia deserunt maiores et cupiditat non proident, sed diam nonumy eirmod tempor incididunt ut labore et dolore magna aliquyam erat voluptas eum incididunt ut labore et dolore magna aliquyam erat voluptas eum incididunt";
     document.getElementById("myDIV").style.margin = "3em";
-
 }
+
 //calculadora///
 function setResult(value) {
     document.getElementById('result').innerHTML = value;
@@ -62,8 +56,7 @@ function del() {
 }
 
 const button = document.getElementById('iniciar-calculadora');
-
-button.addEventListener('click', () => {
+    button.addEventListener('click', () => {
     calculatorInit();
 });
 
@@ -72,7 +65,7 @@ const calculatorInit = () => {
     alert('Iniciando calculadora....');
     alert('Por favor selecciona una operacion:');
 
-    var select_operation = prompt("1. Suma 2. Resta 3. Multiplicación 4. División");
+    let select_operation = prompt("1. Suma 2. Resta 3. Multiplicación 4. División");
 
     if (select_operation === '') {
 
