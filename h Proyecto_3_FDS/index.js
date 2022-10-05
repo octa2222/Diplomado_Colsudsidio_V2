@@ -11,9 +11,6 @@ function Mostrar_Ocultar() {
     }
 
 }
-
-
-
 let clic = 1;
 
 function divLog() {
@@ -27,15 +24,23 @@ function divLog() {
 
 }
 
-function addText() {
-
-    let container = document.querySelector("myDIV");
-    document.getElementById("myHeader").innerHTML = "Acerca de Nosotros";
+function addText() {    
+    document.getElementById("myHeader").innerHTML = "Acerca de        Nosotros";
     myDIV.innerHTML = "h2"
     myDIV.innerHTML = " Mision <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt illo fficiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia   aperiam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt corrupti sed inventore illo officiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia aperiam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt corrupti sed inventore illo officiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia aperiam.<br> <br> Vision <br> lorem ipsum dolor sit amet, consectetur adipisicing  elit, sed diam nonumy eirmod tempor incididunt ut labore et dolore magna aliquyam erat voluptas eum incididunt utilInspect  iusto, incidunt in culpa qui officia deserunt maiores et cupiditat non proident, sed diam nonumy eirmod tempor incididunt ut labore et dolore magna aliquyam erat voluptas eum incididunt ut labore et dolore magna aliquyam erat voluptas eum incididunt";
     document.getElementById("myDIV").style.margin = "3em";
 
 }
+
+let lista();
+function lista() {
+    document.querySelectorAll("div2")
+     = document.querySelector("addTextTabla");
+    document.getElementById("addTextTabla").innerHTML = " Mision <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt illo fficiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia   aperiam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt corrupti sed inventore illo officiis rem non ad error eos ratione magnam culpa pariatur maiores quos voluptas mollitia aperiam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, incidunt corrupti sed inventoret";
+    document.getElementById("lista").style.margin = "3em";
+
+}
+
 //calculadora///
 function setResult(value) {
     document.getElementById('result').innerHTML = value;
