@@ -11,15 +11,19 @@ function Mostrar_Ocultar() {
     }
 
 }
+
 let clic = 1;
 
+
+let node = 1;
+
 function divLog() {
-    if (clic == 1) {
+    if (node == 1) {
         document.getElementById("caja").style.display = "block";
-        clic = clic + 1;
+        node = node + 1;
     } else {
         document.getElementById("caja").style.display = "none";
-        clic = 1;
+        node = 1;
     }
 
 }
@@ -65,18 +69,18 @@ function del() {
     setResult(0);
 }
 
-const button = document.getElementById('iniciar-calculadora');
+let button = document.getElementById('iniciar-calculadora');
 
 button.addEventListener('click', () => {
     calculatorInit();
 });
 
-const calculatorInit = () => {
+let calculatorInit = () => {
 
     alert('Iniciando calculadora....');
     alert('Por favor selecciona una operacion:');
 
-    var select_operation = prompt("1. Suma 2. Resta 3. Multiplicación 4. División");
+    let select_operation = prompt("1. Suma 2. Resta 3. Multiplicación 4. División");
 
     if (select_operation === '') {
 
