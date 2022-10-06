@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <container class="d-flex flex-row px-5 justify-content-evenly">
+        <img src="img/logo.png" alt="logo">
+        <h1 class="fst-italic h1">Tienda de Navidad</h1>
+        <img src="img/logo.png" alt="logo">
+    </container>
+         <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-bg-danger h5 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-fill w-50 mx-auto">
+                    <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="product.html">Productos</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-------Carusel ------->
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="img/baner.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+            <div class="slide">
+                <img src="img/baner01.jpg" />
+            </div>
+        </div>
+    </div>
+</head>
+
+<body onload="iniNevada(100,80)" class="fondo">
+    <section>
+        <h2 class="text-center py-5 text">Contactenos</h2>
+        <div class="container py-4 h5">
+            <form id="contactForm">
+                <!-- Nombre -->
+                <div class="mb-3">
+                    <label class="form-label" for="name">Nombre</label>
+                    <input class="form-control" id="name" type="text" placeholder="Nombre" />
+                </div>
+                <!-- Telefono -->
+                <div class="mb-3">
+                    <label class="form-label" for="Telefono">Telefono</label>
+                    <input class="form-control" id="Telefono" type="number" placeholder="Numero de telefono" />
+                </div>
+
+                <!-- Email  -->
+                <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Correo</label>
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Correo Electronico" />
+                </div>
+                <!-- mensaje -->
+                <div class="mb-3">
+                    <label class="form-label" for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" type="text" placeholder="Escriba su mensaje...."
+                        style="height: 10rem;"></textarea>
+                </div>
+                <!-- Enviar -->
+                <div class="d-grid btn-lg alert alert-success">
+                    <button class="btn btn-primary " type="button"
+                        onclick="alert ('Mensaje Enviado.......Gracias por escribirnos')">Enviar</button>
+                </div>
+            </form>
+            <script src="index.js"></script>
+        </div>
+        </div>
+    </section>
+     <!-- caja modal -->
+    <div class="modal1">
+        <button type="button" class="btn btn-success text-centr " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <h6> Politica Tatamiento de datos </h6>
+        </button>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Politca de Tatamiento de datos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ley de Protección de Datos Personales o Ley 1581 de 2012
+                        Reconoce y protege el derecho que tienen todas las personas a conocer, actualizar y rectificar
+                        las informaciones que se hayan recogido sobre ellas en bases de datos o archivos que sean
+                        susceptibles de tratamiento por entidades de naturaleza pública o privada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+<!--pie de pagina-->
+<footer class="text-center text-lg-start w-100" style="background-color: #db6930;">
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="#">Diplomado colsubsidio HTLM & CSS</a>
+    </div>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+</html>
